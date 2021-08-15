@@ -60,6 +60,9 @@ msgid ""
 "deployment. It runs arbitrary user codes safely in resource-constrained "
 "environments, using Docker and our own sandbox wrapper."
 msgstr ""
+"Backend.AI는 AI 모델 개발과 배포를 위한 편리한 소프트웨어입니다."
+"도커와 Backend.AI만의 기능을 사용해서, 리소스가 제한된 환경에서도 임의의 사용자 코드를 안전하게 실행할 수 있습니다."
+
 
 #: ../../index.rst:14
 msgid ""
@@ -68,6 +71,8 @@ msgid ""
 "as well as AI-oriented libraries such as TensorFlow, Keras, Caffe, and "
 "MXNet."
 msgstr ""
+"Backend.AI는 Python 2/3, R, PHP, C/C++, Java, Javascript, Javascript, Julia, Octave, Haskell, Lua and NodeJS와 같은 다양한 프로그래밍 언어뿐만 아니라"
+"AI 관련 프레임워크인 TensorFlow, Keras, Caffe, MNXet 또한 지원합니다."
 
 #: ../../index.rst:17
 msgid "Table of Contents"
