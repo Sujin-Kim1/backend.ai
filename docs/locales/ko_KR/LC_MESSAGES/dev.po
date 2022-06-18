@@ -34,12 +34,16 @@ msgid ""
 "Docker container images can be *imported* as Backend.AI kernels with "
 "appropriate metadata annotations."
 msgstr ""
+"Backend.AI는 제약된 리소스와 고립된 환경에서 사용자가 요청한 계산대로 실행될수 있도록"
+"도커 컨테이너를 지원합니다. 대부분의 도커 컨테이터 이미지가 적절한 메타데이터 주석을 가지고 있는"
+"Backend.AI 커널로부터 복사될 수 있습니다."
 
 #: ../../dev/adding-kernels.rst:10
 msgid ""
 "Prepare a Docker image based on Ubuntu 16.04/18.04, CentOS 7.6, or Alpine"
 " 3.8."
 msgstr ""
+"우분투 16.04/18.04, 센토스 7.6, 또는 알파인을 기반으로 한 도커 이미지를 준비합니다."
 
 #: ../../dev/adding-kernels.rst:11
 msgid "Create a Dockerfile that does:"
@@ -50,22 +54,23 @@ msgid ""
 "Install the OpenSSL library in the image for the kernel runner (if not "
 "installed)."
 msgstr ""
+"커널 작동을 위한 이미지를 OpenSSL 라이브러리에 설치하세요. (설치되지 않을때)"
 
 #: ../../dev/adding-kernels.rst:14
 msgid "Add metadata labels."
-msgstr ""
+msgstr "메타데이터 레이블 추가"
 
 #: ../../dev/adding-kernels.rst:15
 msgid "Add service definition files."
-msgstr ""
+msgstr "서비스 정의 파일 추가"
 
 #: ../../dev/adding-kernels.rst:16
 msgid "Add a jail policy file."
-msgstr ""
+msgstr "정책 파일 추가"
 
 #: ../../dev/adding-kernels.rst:18
 msgid "Build a derivative image using the Dockerfile."
-msgstr ""
+msgstr "도커파일을 이용한 파생 이미지 구축"
 
 #: ../../dev/adding-kernels.rst:19
 msgid "Upload the image to a Docker registry to use with Backend.AI."
@@ -73,7 +78,7 @@ msgstr ""
 
 #: ../../dev/adding-kernels.rst:23
 msgid "Kernel Runner"
-msgstr ""
+msgstr "커널 러너"
 
 #: ../../dev/adding-kernels.rst:25
 msgid ""
@@ -82,6 +87,9 @@ msgid ""
 "via ZeroMQ, and manages user code execution and in-container service "
 "processes."
 msgstr ""
+"모든 Backend.AI 커널은 커널 러너라고 불리는 작은 데몬이 작동해야한다"
+"데몬은 ZeroMQ를 통한 호스트가 작동하는 Backend.AI 에이전트와 통신하고"
+"사용자 코드 실행과 컨테이너 내에 서비스 프로세스들을 관리한다."
 
 #: ../../dev/adding-kernels.rst:28
 msgid ""
