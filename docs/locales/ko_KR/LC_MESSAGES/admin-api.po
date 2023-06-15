@@ -56,11 +56,9 @@ msgid ""
 "HTTP proxy where all the required authorization headers are attached from"
 " the client configuration. Using this you do not have to add any custom "
 "header configurations to your favorite API development tools."
-msgstr "관리자 API를 쉽게 테스트하고 디버그하기 위해서는, 공식 파이썬 클라이언트 "
-"<https://pypi.python.org/pypi/backend.ai-client>의 프록시 모드로 시도해보세요. "
-"그것은 필요한 모든 권한 헤더가 클라이언트 방식에서 첨부되는 불안정한(SSL이 아닌, 비인증된) "
-"로컬 HTTP 프록시를 제공합니다. 이를 사용하면 사용자 정의 헤더 방식을 더이상 당신의 "
-"API 개발 툴에 추가할 필요가 없습니다.
+msgstr "Admin API를 쉽게 테스트하고 디버깅하기 위해, `공식 Python 클라이언트 <https://pypi.python.org/pypi/backend.ai-client>`_"
+"의 프록시 모드를 시도해보세요. 이 모드는 보안되지 않은 (SSL 및 인증되지 않은) 로컬 HTTP 프록시를 제공하며, "
+"클라이언트 구성에서 필요한 모든 인증 헤더가 첨부됩니다. 이를 사용하면 좋아하는 API 개발 도구에 사용자 정의 헤더 구성을 추가할 필요가 없습니다."
 
 #: ../../admin-api/intro.rst:24
 msgid "Basics of GraphQL"
